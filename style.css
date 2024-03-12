@@ -1,0 +1,38 @@
+body {
+	background-color: darkblue;
+	height: 100vh;
+}
+
+div > p {
+	background-color: hotpink;
+}
+
+div + p {
+	background-color: lightpink;
+}
+
+p::first-letter {
+font-size: 3em;
+}
+
+.class1 {
+	color: lightpink;
+}
+
+
+.class2 {
+	color: white;
+}
+
+div {
+	border-radius: 50%;
+	background-color: lightblue;
+}
+
+h1, p {
+font-family: sans-serif;
+}
+
+h1 {
+	font-size: 20vh;
+}
